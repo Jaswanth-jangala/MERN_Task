@@ -1,62 +1,62 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS-4</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML TASK 4</title>
     <style>
-        #sidenav p
-        {
-            position: absolute;
-            left: -80px;
-            transition: 0.5s;
-            padding: 15px;
-            width: 100px;
-            text-decoration: none;
-            font-size: 20px;
-            color: white;
-            border-radius: 0 5px 5px 0;
-            margin-top: -10px;
-        }
-        #sidenav p:hover {
-          left: 0;  
-        }
-        #home
-        {
-            top: 20px;
-            background-color: #04AA6D;
-        }
-        #Java
-        {
-            top: 80px;
-            background-color: #2196F3;
-        }
-        #HTML
-        {
-            top: 140px;
-            background-color: #f44336;
-        }
-        #CSS
-        {
-            top: 200px;
-            background-color: #555
-        }
-        #Content
-        {
-            margin-left: 80px;
-        }
+      table{
+        margin-left: auto;
+        margin-right: auto;
+      }
     </style>
-</head>
-<body>
-    <div id="sidenav">
-        <p id="home">Home</p>
-        <p id="Java">Java</p>
-        <p id="HTML">HTML</p>
-        <p id="CSS">CSS</p>
-    </div>
-    <div id="Content">
-        <b>Hoverable Sidenav Buttons</b><br><br>
-        Hover over the buttons in the left side navigation to open them.
-    </div>
-</body>
+  </head>
+  <body>
+    <table>
+      <form>
+        <tr>
+          <td><label for="fullname">Full Name:</label></td>
+          <td><input type="text" id="fullname" name="fullname"  placeholder="Vincent Maverick Durano"/><br /></td>
+        </tr>
+        <tr>
+          <td><label for="username">Username:</label></td>
+          <td><input type="text" id="username" name="username" placeholder="Vinz"/><br /></td>
+        </tr>
+        <tr>
+          <td><label for="password">Password:</label></td>
+          <td><input type="password" id="password" name="password" /><br /></td>
+        </tr>
+        <tr>
+          <td><label for="repassword">Re Password:</label></td>
+          <td>
+            <input type="password" id="repassword" name="repassword" /><br />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="address">Address:</label></td>
+          <td><input type="text" id="address" name="address" placeholder="Cebu, Phillippines"/><br /></td>
+        </tr>
+        <tr>
+          <td><label for="age">Age:</label></td>
+          <td><input type="number" id="age" name="age" placeholder="22"/><br /></td>
+        </tr>
+        <tr>
+          <td><label for="gender">Gender:</label></td>
+          <td>
+            <select id="cars" name="cars">
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Others">Others</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="submit" value="save" />
+          </td>
+        </tr>
+      </form>
+    </table>
+  </body>
 </html>
