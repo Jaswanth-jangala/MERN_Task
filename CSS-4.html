@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-4</title>
+    <style>
+        #sidenav p
+        {
+            position: absolute;
+            left: -80px;
+            transition: 0.5s;
+            padding: 15px;
+            width: 100px;
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            border-radius: 0 5px 5px 0;
+            margin-top: -10px;
+        }
+        #sidenav p:hover {
+          left: 0;  
+        }
+        #home
+        {
+            top: 20px;
+            background-color: #04AA6D;
+        }
+        #Java
+        {
+            top: 80px;
+            background-color: #2196F3;
+        }
+        #HTML
+        {
+            top: 140px;
+            background-color: #f44336;
+        }
+        #CSS
+        {
+            top: 200px;
+            background-color: #555
+        }
+        #Content
+        {
+            margin-left: 80px;
+        }
+    </style>
+</head>
+<body>
+    <div id="sidenav">
+        <p id="home">Home</p>
+        <p id="Java">Java</p>
+        <p id="HTML">HTML</p>
+        <p id="CSS">CSS</p>
+    </div>
+    <div id="Content">
+        <b>Hoverable Sidenav Buttons</b><br><br>
+        Hover over the buttons in the left side navigation to open them.
+    </div>
+</body>
+</html>
